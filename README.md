@@ -11,3 +11,4 @@ But this is 1.8 and will be a bit different, on `.method static constructor <cli
     invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V`
 
 I personally like to build the mod by running `C:\(The path for the folder)\android-ndk-r16b\ndk-build.cmd` on cmd directly, but you can also edit the `build.bat` file :)
+Please check out `/Libaries/README.md`, there's useful info there.
