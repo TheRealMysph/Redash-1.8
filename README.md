@@ -1,6 +1,6 @@
 ## ReDash 1.8's GitHub Repository
 
-To compile this, please check out [this](https://github.com/iAndyHD3/gd-mod-example-android/tree/main).
+To compile this, please check out [this guide](https://github.com/iAndyHD3/gd-mod-example-android/tree/main) from iAndy. :)
 
 But this is 1.8 and will be a bit different, on `.method static constructor <clinit>()V
     .locals 1 ...`, you will add these instead after the cocos2dcpp line: 
