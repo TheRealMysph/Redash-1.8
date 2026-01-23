@@ -1,4 +1,4 @@
-## ReDash 1.8
+## ReDash 1.8's GitHub Repository
 
 To compile this, please check out [this](https://github.com/iAndyHD3/gd-mod-example-android/tree/main).
 
