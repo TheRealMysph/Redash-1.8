@@ -5,8 +5,8 @@ To compile this, please check out [this](https://github.com/iAndyHD3/gd-mod-exam
 But this is 1.8 and will be a bit different, on `.method static constructor <clinit>()V
     .locals 1 ...`, you will add these instead after cocos2dcpp: 
     
-    `.line 67`
-    `const-string v0, "dobby"`
+    `.line 67
+    const-string v0, "dobby"
 
     invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V`
 
