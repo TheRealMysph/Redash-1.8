@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/097a6886-3c7a-497e-a8a3-52790b5c3d6d" width="325" alt="ReDash 1.8">
+</p>
+
 ## ReDash 1.8's GitHub Repository
 
 To compile this, please check out [this guide](https://github.com/iAndyHD3/gd-mod-example-android/tree/main) from iAndy. :)
