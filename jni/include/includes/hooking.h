@@ -4,9 +4,6 @@
 #include <cstdio>
 #include <pthread.h>
 
-
-#define HOOK(symbol, newfunc, trampoline) HookManager::do_hook(HookManager::getPointerFromSymbol(dlopen(("libcocos2dcpp.so") != "" ? ("libcocos2dcpp.so") : NULL, RTLD_LAZY), symbol), (void*)newfunc, (void**)&trampoline);
-
 class HookManager {
 	public:
 		
@@ -17,3 +14,5 @@ class HookManager {
 	}
 		
 };
+
+#define HOOK(symbol, newfunc, trampoline) HookManager::do_hook(HookManager::getPointerFromSymbol(dlopen(("libcocos2dcpp.so") != "" ? ("libcocos2dcpp.so") : NULL, RTLD_LAZY), symbol), (void*)newfunc, (void**)&trampoline);

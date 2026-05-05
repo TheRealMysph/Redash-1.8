@@ -1,3 +1,4 @@
+#pragma once
 #include <jni.h>
 #include <dlfcn.h>
 #include "patch.h"
@@ -6,8 +7,12 @@
 #include <hooking.h>
 #include <string>
 #include <iostream>
+#include "hooks.h"
+#include <map>
 
 using namespace cocos2d;
+
+inline std::map<int, int> g_lvlData;
 
 #ifndef __GDMACROS_H__
 #define __GDMACROS_H__
