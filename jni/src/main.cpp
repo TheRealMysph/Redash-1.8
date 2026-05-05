@@ -127,6 +127,7 @@ void ApplyHooks() {
 
 void loader() {
 	ApplyHooks();
+  applyNanoHooks();
 }
 
 JNIEXPORT jint JNI_OnLoad(JavaVM *vm, void *reserved)
