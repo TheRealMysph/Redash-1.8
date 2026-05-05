@@ -26,4 +26,4 @@ But this is 1.8 and will be a bit different, on `.method static constructor <cli
 
 I personally like to build the mod by running `C:\(The path for the folder)\android-ndk-r16b\ndk-build.cmd` directly on the project's folder, but you can also edit the `build.bat` :)
 
-Please check out `/Libaries/README.md`, there's useful info there, required to build the mod.
+Please check out `/Libraries/README.md`, there's useful info there, required to build the mod.
